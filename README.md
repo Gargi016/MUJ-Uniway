@@ -38,7 +38,7 @@ This application is a lightweight, static web app deployed via GitHub Pages, ens
 
 ## 📖 Project Overview
 
-[cite_start]Navigating the expansive Manipal University Jaipur (MUJ) campus poses a significant challenge for new students, visitors, and even faculty[cite: 5]. [cite_start]**MUJ UniWay** is an interactive, web-based campus navigation platform built to solve this problem[cite: 16]. [cite_start]By providing a feature-rich, easy-to-use digital map, our project eliminates the frustration of finding specific destinations and enhances the overall campus experience for the entire university community[cite: 8]. [cite_start]This solution directly addresses the lack of a comprehensive digital tool for real-time navigation at MUJ[cite: 7].
+Navigating the expansive Manipal University Jaipur (MUJ) campus poses a significant challenge for new students, visitors, and even faculty. **MUJ UniWay** is an interactive, web-based campus navigation platform built to solve this problem. By providing a feature-rich, easy-to-use digital map, our project eliminates the frustration of finding specific destinations and enhances the overall campus experience for the entire university community. This solution directly addresses the lack of a comprehensive digital tool for real-time navigation at MUJ.
 
 ---
 
@@ -71,12 +71,12 @@ To solve the routing problem, we manually mapped the campus's true pathways—fo
 
 ## ✨ Key Features
 
-- [cite_start]**Interactive Campus Map**: A high-performance, interactive map of the entire MUJ campus with detailed building outlines and location markers[cite: 21].
-- [cite_start]**Live Search with Pointer**: Instantly search for any building by name; the map not only centers on the location but adds a special pointer for easy identification[cite: 22].
+- **Interactive Campus Map**: A high-performance, interactive map of the entire MUJ campus with detailed building outlines and location markers.
+- **Live Search with Pointer**: Instantly search for any building by name; the map not only centers on the location but adds a special pointer for easy identification.
 - **Accurate On-Campus Paths**: Displays all major footpaths and roads, providing a true representation of how to navigate within the campus.
-- [cite_start]**Dynamic Category Filtering**: Filter locations by categories like "Academic," "Dining," and "Sports" to explore the campus thematically[cite: 24].
-- [cite_start]**Real-time Information**: Click on any location to see its current status and operating hours in a clean, accessible info panel[cite: 25].
-- [cite_start]**"Route from My Location"**: Instantly create a route from your current GPS location to any point on campus[cite: 23].
+- **Dynamic Category Filtering**: Filter locations by categories like "Academic," "Dining," and "Sports" to explore the campus thematically.
+- **Real-time Information**: Click on any location to see its current status and operating hours in a clean, accessible info panel.
+- **"Route from My Location"**: Instantly create a route from your current GPS location to any point on campus.
 
 ---
 
@@ -93,13 +93,18 @@ To solve the routing problem, we manually mapped the campus's true pathways—fo
 Our application provides a clean, intuitive, and highly functional solution to the campus navigation problem. The screenshots below demonstrate key features in action.
 
 <p align="center">
-  <b>Campus View with Category Filter </b><br><br>
+  <b>Complete Campus View</b><br><br>
   <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/sc%202.png" alt="A screenshot showing the complete campus map with buildings and paths." width="600">
 </p>
 
 <p align="center">
-  <b>Complete Campus View</b><br><br>
+  <b>Live Search with Pointer and Info Panel</b><br><br>
   <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/muj%20naviagation%20%20.jpg" alt="A screenshot showing the search pointer on a building with the info panel open." width="600">
+</p>
+
+<p align="center">
+  <b>Route Navigation</b><br><br>
+  <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/campusnavigation.jpeg" alt="A screenshot showing a route planned between two points on campus." width="600">
 </p>
 
 ---
@@ -121,7 +126,7 @@ This is a static web project and requires no complex installation.
 
 ## 🔮 Future Roadmap
 
-[cite_start]This project has significant potential for future growth[cite: 53]. Our implementation roadmap includes:
+This project has significant potential for future growth. Our implementation roadmap includes:
 - **Guided Campus Tours**: Pre-defined walking tours ("Campus Highlights," "First-Year Essentials") for visitors and new students.
 - **Augmented Reality Viewfinder**: An AR mode to overlay location information directly onto the live camera feed.
 - **Class Schedule Integration**: Allowing students to connect their schedule for quick routing to their next class.
