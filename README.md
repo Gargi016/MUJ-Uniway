@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/muj%20naviagation%20.jpg" alt="MUJ UniWay Project Banner">
+  <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/ChatGPT%20Image%20Aug%2013%2C%202025%2C%2003_45_17%20AM.png" alt="MUJ UniWay Project Banner">
 </p>
 
 <h1 align="center">MUJ UniWay</h1>
@@ -84,7 +84,7 @@ To solve the routing problem, we manually mapped the campus's true pathways—fo
 
 | HTML5 | Tailwind CSS | JavaScript | Leaflet.js |
 | :---: | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/Ritviks21/Silicon-Sentinel/main/docs/images/html.png" width="48"> | <img src="https://raw.githubusercontent.com/Ritviks21/Silicon-Sentinel/main/docs/images/tailwind.png" width="48"> | <img src="https://raw.githubusercontent.com/Ritviks21/Silicon-Sentinel/main/docs/images/js.png" width="48"> | <img src="https://raw.githubusercontent.com/Ritviks21/Silicon-Sentinel/main/docs/images/leaflet.png" width="48"> |
+| <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/html.jpg" width="48"> | <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/taliwind%20css%20.jpg" width="48"> | <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/java%20script%20.jpg" width="48"> | <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/leaflet.js.jpg" width="48"> |
 
 ---
 
@@ -94,12 +94,12 @@ Our application provides a clean, intuitive, and highly functional solution to t
 
 <p align="center">
   <b>Complete Campus View with Custom Paths</b><br><br>
-  <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/muj%20naviagation%20.jpg" alt="A screenshot showing the complete campus map with buildings and paths." width="600">
+  <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/sc%202.png" alt="A screenshot showing the complete campus map with buildings and paths." width="600">
 </p>
 
 <p align="center">
   <b>Live Search with Pointer and Info Panel</b><br><br>
-  <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/sc%202.jpg" alt="A screenshot showing the search pointer on a building with the info panel open." width="600">
+  <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/muj%20naviagation%20%20.jpg" alt="A screenshot showing the search pointer on a building with the info panel open." width="600">
 </p>
 
 ---
@@ -134,4 +134,4 @@ This is a static web project and requires no complex installation.
 This project was developed by:
 
 - **Gargi Das**: [GitHub](https://github.com/Gargi016) | [LinkedIn](https://www.linkedin.com/in/gargi-das-0026b331a/)
-- **Ritvik Raj Singh**: [GitHub](https://github.com/Ritviks21) | [LinkedIn](https://www.linkedin.com/in/ritvik-raj-singh-429922379?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- **Ritvik Raj Singh**: [GitHub](https://github.com/Ritviks21) | [LinkedIn](https://www.linkedin.com/in/ritvik-raj-singh-429922379)
