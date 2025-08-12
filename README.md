@@ -93,12 +93,12 @@ To solve the routing problem, we manually mapped the campus's true pathways—fo
 Our application provides a clean, intuitive, and highly functional solution to the campus navigation problem. The screenshots below demonstrate key features in action.
 
 <p align="center">
-  <b>Complete Campus View with Custom Paths</b><br><br>
+  <b>Campus View with Category Filter </b><br><br>
   <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/sc%202.png" alt="A screenshot showing the complete campus map with buildings and paths." width="600">
 </p>
 
 <p align="center">
-  <b>Live Search with Pointer and Info Panel</b><br><br>
+  <b>Complete Campus View</b><br><br>
   <img src="https://raw.githubusercontent.com/Gargi016/MUJ-Uniway/main/docs/muj%20naviagation%20%20.jpg" alt="A screenshot showing the search pointer on a building with the info panel open." width="600">
 </p>
 
