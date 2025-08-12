@@ -21,7 +21,7 @@
   <a href="#-key-features">Key Features</a> •
   <a href="#-tech-stack">Tech Stack</a> •
   <a href="#-results">Results</a> •
-  <a href="#-future-roadmap">Future Roadmap</a>
+  <a href="#-how-to-contribute">Contribute</a>
 </p>
 
 ---
@@ -109,6 +109,14 @@ Our application provides a clean, intuitive, and highly functional solution to t
 
 ---
 
+## 📂 Open Dataset for MUJ
+
+A core part of this project was the manual creation of a comprehensive GeoJSON dataset that maps the buildings, locations, and pathways of the Manipal University Jaipur campus. We are making this data freely available to the MUJ community.
+
+You can find the complete dataset in the `campus_data.geojson` file in this repository. We encourage students, developers, and researchers to use this data for their own projects and analyses.
+
+---
+
 ## 🚀 Getting Started
 
 This is a static web project and requires no complex installation.
@@ -121,6 +129,17 @@ This is a static web project and requires no complex installation.
 
 2.  **Run Locally**
     Simply open the `index.html` file in any modern web browser.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from the community to make MUJ UniWay even better! This project is a continuous effort, and there are many ways to help it grow. If you'd like to contribute, please feel free to fork the repository and submit a pull request.
+
+### Areas for Contribution
+* **Improve Map Data**: Help us make our GeoJSON data more accurate. You can correct building outlines, add missing paths, or include new points of interest.
+* **Add New Features**: Implement one of the ideas from our [Future Roadmap](#-future-roadmap) or propose a new one.
+* **Enhance the UI/UX**: Suggest improvements to the user interface and user experience to make the app more intuitive.
 
 ---
 
