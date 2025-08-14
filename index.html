@@ -243,10 +243,7 @@
  }
  }, {
  "type": "Feature",
- "properties": {"name": "Academic Block 2",
- "category": "Academic",
- "status": "Open",
- "hours": "8:00 AM - 6:00 PM"},
+ "properties": {},
  "geometry": {
  "coordinates": [
  [
@@ -1635,15 +1632,37 @@
  const geojsonData = cleanGeoJsonData(rawGeojsonData);
 
  // --- MAP INITIALIZATION ---
- const map = L.map('map').setView([26.8445, 75.5685], 16);
- L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
- attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
- }).addTo(map);
+const map = L.map('map').setView([26.8445, 75.5685], 16);
 
+// 1. Define your map layers (basemaps)
+const streetMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+
+const satelliteMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+});
+
+const darkMap = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+});
+
+// 2. Set the default map layer
+streetMap.addTo(map);
+
+// 3. Create the baseMaps object for the control
+const baseMaps = {
+    "Streets": streetMap,
+    "Satellite": satelliteMap,
+    "Dark Mode": darkMap
+};
+
+// 4. Add the layer control to the map
+L.control.layers(baseMaps).addTo(map);
  // --- GLOBAL VARIABLES ---
  let geojsonLayer;
  let routingControl;
- let searchPointer = null;
+ let searchPointer = null; // NEW: Variable for the search marker
  const searchInput = document.getElementById('searchInput');
  const searchResults = document.getElementById('searchResults');
  const categoryFilters = document.getElementById('categoryFilters');
@@ -1776,10 +1795,8 @@
  searchResults.appendChild(div);
  });
  });
- 
 
-
- document.addEventListener('click', (e) => {
+document.addEventListener('click', (e) => {
  if (!searchResults.contains(e.target) && e.target !== searchInput) searchResults.innerHTML = '';
  if (!e.target.closest('.leaflet-marker-icon') && !e.target.closest('.leaflet-interactive') && !infoPanel.contains(e.target)) {
  updateInfoPanel(null);
@@ -1790,7 +1807,6 @@
         }
  }
  });
-
 
  const setupCategoryFilters = () => {
  const categories = ['All', ...new Set(geojsonData.features.filter(f => f.properties.category).map(f => f.properties.category))];
@@ -1848,8 +1864,7 @@
             searchPointer = null;
         }
  });
- 
-
+ 
  document.getElementById('routeFromCurrentLocation').addEventListener('click', () => map.locate({
  setView: true,
  maxZoom: 16
